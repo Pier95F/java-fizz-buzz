@@ -14,11 +14,9 @@ public class FizzBuzz {
 		// Se il numero scelto è maggiore di 100
 		if (numero>100) {
 		// Messaggio di errore
-			System.out.println("Error: inserisci un numero compreso tra 1 e 100");
-		} 
-		
+		System.out.println("Error: inserisci un numero compreso tra 1 e 100");		
 		// Se il numero scelto è compreso tra 1 e 100
-		if (numero>0 && numero <=100) {
+		} else if (numero>0 && numero <=100) {
 		// Inizio il gioco
 		System.out.println("Inizia il gioco");
 		// Imposto il ciclo
@@ -40,6 +38,7 @@ public class FizzBuzz {
 		// stampa il numero 
 				System.out.println(i);
 			}
+		
 		}
 		}
 		
